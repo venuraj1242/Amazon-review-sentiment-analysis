@@ -1,4 +1,5 @@
 import nltk
+nltk.download('vader_lexicon')
 import pandas as pd
 from sklearn.metrics import accuracy_score, confusion_matrix, classification_report
 
